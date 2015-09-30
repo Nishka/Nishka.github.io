@@ -1,0 +1,94 @@
+
+
+
+
+#executive_summary {
+	/* width: 75%; */
+	margin: 0.5em 270px 0.5em 0;
+	font-style: oblique;
+	font-size: 1.2em;
+	color: #aaaaaa;
+	z-index: 88;
+}
+
+h1 {
+	padding-bottom: 1em;
+	border-bottom: 2px solid black;
+	margin-right: 80px;
+	font-style: oblique;
+}
+
+#avatar {
+	float: right;
+	max-width: 250px;
+	/*height: 250px;*/
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	z-index: 2;
+
+
+    -ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Safari */
+    transform: rotate(-4deg);
+ 
+}
+
+img#avatar {}
+
+
+.resume-section {
+	display: block;
+	margin: 1em 0 0;
+	padding: 0 0 0 10px;
+	clear: both;
+
+}
+
+.resume-section .title {
+	float: left;
+	width: 20%;
+	/*border-spacing: ;*/
+	min-width: 140px;
+}
+
+.resume-section .detail {
+	float: left;
+	min-width: 200px;
+	clear: right;
+	border-left: 2px solid #999;
+	padding: 0 5px 0 15px;
+}
+
+ul.nodot {
+	list-style: none
+;
+	padding-left: 0;
+}
+
+
+
+h4 {  }
+
+/* Clearfix hack courtesy of https://css-tricks.com/snippets/css/clear-fix/ */
+.clearfix:after, .resume-section:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix, .resume-section { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix, * html .resume-section { height: 1%; }
+.clearfix, .resume-section { display: block; }
+/* close commented backslash hack */
+
+/* Image Transformation cortesy of 
+	http://www.w3schools.com/css/css3_2dtransforms.asp
+ */
+
+ body{
+	background-color:pink;
+}
